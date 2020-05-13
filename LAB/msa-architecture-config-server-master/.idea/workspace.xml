@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c19372fa-ab54-4c55-909c-f681bcc37105" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1bkd8Wqm02OAufQOHx6EqZq3zD9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556174979619" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../msa-architecture-eureka-server-master" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="MsaConfigServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="msa-architecture-config-server-master.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.msa.config.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.msa.config.server.MsaConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.MsaConfigServerApplication (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c19372fa-ab54-4c55-909c-f681bcc37105" name="Default Changelist" comment="" />
+      <created>1556154471340</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556154471340</updated>
+      <workItem from="1556154472497" duration="2926000" />
+      <workItem from="1556175375496" duration="254000" />
+      <workItem from="1556206977594" duration="772000" />
+      <workItem from="1569213077778" duration="110000" />
+      <workItem from="1589179868268" duration="6724000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="611" y="141" key="#MsaConfigServerApplication" timestamp="1589180265650">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="611" y="141" key="#MsaConfigServerApplication/0.0.1920.1040@0.0.1920.1040" timestamp="1589180265650" />
+    <state x="413" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589243376044">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="413" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589243376044" />
+    <state x="739" y="273" key="FileChooserDialogImpl" timestamp="1589179879781">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="273" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589179879781" />
+    <state width="1875" height="394" key="GridCell.Tab.0.bottom" timestamp="1589258159656">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1875" height="394" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589258159656" />
+    <state width="1875" height="394" key="GridCell.Tab.0.center" timestamp="1589258159656">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1875" height="394" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589258159656" />
+    <state width="1875" height="394" key="GridCell.Tab.0.left" timestamp="1589258159656">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1875" height="394" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589258159656" />
+    <state width="1875" height="394" key="GridCell.Tab.0.right" timestamp="1589258159656">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1875" height="394" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589258159656" />
+    <state width="1875" height="394" key="GridCell.Tab.1.bottom" timestamp="1589258159656">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1875" height="394" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589258159656" />
+    <state width="1875" height="394" key="GridCell.Tab.1.center" timestamp="1589258159656">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1875" height="394" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589258159656" />
+    <state width="1875" height="394" key="GridCell.Tab.1.left" timestamp="1589258159656">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1875" height="394" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589258159656" />
+    <state width="1875" height="394" key="GridCell.Tab.1.right" timestamp="1589258159656">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1875" height="394" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589258159656" />
+    <state x="460" y="160" key="SettingsEditor" timestamp="1589180437870">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="460" y="160" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589180437870" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

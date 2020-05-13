@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="com.example.msa.msa-service-coffee-member:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/com_example_msa_msa_service_coffee_member_jar</output-path>
+    <root id="archive" name="com.example.msa.msa-service-coffee-member.jar" />
+  </artifact>
+</component>

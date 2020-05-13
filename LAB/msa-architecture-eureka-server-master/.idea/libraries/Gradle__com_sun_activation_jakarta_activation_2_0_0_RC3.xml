@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.sun.activation:jakarta.activation:2.0.0-RC3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.activation/jakarta.activation/2.0.0-RC3/fb066ef8205a8d4b4ca7c18eafc920a1e00383dd/jakarta.activation-2.0.0-RC3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.activation/jakarta.activation/2.0.0-RC3/dc7da56b5816da6eff884a1773b17fad65adaa51/jakarta.activation-2.0.0-RC3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

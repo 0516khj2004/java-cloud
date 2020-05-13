@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/LAB.iml" filepath="$PROJECT_DIR$/.idea/LAB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msa-service-coffee-member/com.example.msa.msa-service-coffee-member.iml" filepath="$PROJECT_DIR$/.idea/modules/msa-service-coffee-member/com.example.msa.msa-service-coffee-member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msa-service-coffee-member/com.example.msa.msa-service-coffee-member.main.iml" filepath="$PROJECT_DIR$/.idea/modules/msa-service-coffee-member/com.example.msa.msa-service-coffee-member.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msa-service-coffee-member/com.example.msa.msa-service-coffee-member.test.iml" filepath="$PROJECT_DIR$/.idea/modules/msa-service-coffee-member/com.example.msa.msa-service-coffee-member.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msa-service-coffee-order/com.example.msa.msa-service-coffee-order.iml" filepath="$PROJECT_DIR$/.idea/modules/msa-service-coffee-order/com.example.msa.msa-service-coffee-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msa-service-coffee-order/com.example.msa.msa-service-coffee-order.main.iml" filepath="$PROJECT_DIR$/.idea/modules/msa-service-coffee-order/com.example.msa.msa-service-coffee-order.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msa-service-coffee-order/com.example.msa.msa-service-coffee-order.test.iml" filepath="$PROJECT_DIR$/.idea/modules/msa-service-coffee-order/com.example.msa.msa-service-coffee-order.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msa-service-coffee-status/com.example.msa.msa-service-coffee-status.iml" filepath="$PROJECT_DIR$/.idea/modules/msa-service-coffee-status/com.example.msa.msa-service-coffee-status.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msa-service-coffee-status/com.example.msa.msa-service-coffee-status.main.iml" filepath="$PROJECT_DIR$/.idea/modules/msa-service-coffee-status/com.example.msa.msa-service-coffee-status.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msa-service-coffee-status/com.example.msa.msa-service-coffee-status.test.iml" filepath="$PROJECT_DIR$/.idea/modules/msa-service-coffee-status/com.example.msa.msa-service-coffee-status.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msa-book.iml" filepath="$PROJECT_DIR$/.idea/modules/msa-book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msa-book.main.iml" filepath="$PROJECT_DIR$/.idea/modules/msa-book.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msa-book.test.iml" filepath="$PROJECT_DIR$/.idea/modules/msa-book.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msa-echosystem.msa-architecture-config-server-master.iml" filepath="$PROJECT_DIR$/.idea/modules/msa-echosystem.msa-architecture-config-server-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msa-echosystem.msa-architecture-config-server-master.main.iml" filepath="$PROJECT_DIR$/.idea/modules/msa-echosystem.msa-architecture-config-server-master.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msa-echosystem.msa-architecture-config-server-master.test.iml" filepath="$PROJECT_DIR$/.idea/modules/msa-echosystem.msa-architecture-config-server-master.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msa-echosystem.msa-architecture-eureka-server-master.iml" filepath="$PROJECT_DIR$/.idea/modules/msa-echosystem.msa-architecture-eureka-server-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msa-echosystem.msa-architecture-eureka-server-master.main.iml" filepath="$PROJECT_DIR$/.idea/modules/msa-echosystem.msa-architecture-eureka-server-master.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msa-echosystem.msa-architecture-eureka-server-master.test.iml" filepath="$PROJECT_DIR$/.idea/modules/msa-echosystem.msa-architecture-eureka-server-master.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msa-echosystem.msa-architecture-hystrix-dashboard-master.iml" filepath="$PROJECT_DIR$/.idea/modules/msa-echosystem.msa-architecture-hystrix-dashboard-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msa-echosystem.msa-architecture-hystrix-dashboard-master.main.iml" filepath="$PROJECT_DIR$/.idea/modules/msa-echosystem.msa-architecture-hystrix-dashboard-master.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msa-echosystem.msa-architecture-hystrix-dashboard-master.test.iml" filepath="$PROJECT_DIR$/.idea/modules/msa-echosystem.msa-architecture-hystrix-dashboard-master.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msa-echosystem.msa-architecture-turbine-server-master.iml" filepath="$PROJECT_DIR$/.idea/modules/msa-echosystem.msa-architecture-turbine-server-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msa-echosystem.msa-architecture-turbine-server-master.main.iml" filepath="$PROJECT_DIR$/.idea/modules/msa-echosystem.msa-architecture-turbine-server-master.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msa-echosystem.msa-architecture-turbine-server-master.test.iml" filepath="$PROJECT_DIR$/.idea/modules/msa-echosystem.msa-architecture-turbine-server-master.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msa-echosystem.msa-architecture-zuul-server-master.iml" filepath="$PROJECT_DIR$/.idea/modules/msa-echosystem.msa-architecture-zuul-server-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msa-echosystem.msa-architecture-zuul-server-master.main.iml" filepath="$PROJECT_DIR$/.idea/modules/msa-echosystem.msa-architecture-zuul-server-master.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msa-echosystem.msa-architecture-zuul-server-master.test.iml" filepath="$PROJECT_DIR$/.idea/modules/msa-echosystem.msa-architecture-zuul-server-master.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myeureka/myeureka.iml" filepath="$PROJECT_DIR$/myeureka/myeureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myeureka2/myeureka2.iml" filepath="$PROJECT_DIR$/myeureka2/myeureka2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myeureka3/myeureka3.iml" filepath="$PROJECT_DIR$/myeureka3/myeureka3.iml" />
+    </modules>
+  </component>
+</project>

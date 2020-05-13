@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="ICoffeeStatusMapper">
+    <update id="createStatusTable" parameterType="OrderStatusDVO">
+		create table coffee_order_status(
+			   id int primary key
+			 , order_history varchar(300)
+		 )
+	</update>
+    <insert id="insertCoffeeOrderStatus" parameterType="OrderStatusDVO">
+	 	insert into coffee_order_status values (
+	 	    1
+	 	   ,#{orderHistory}
+	 	)
+	</insert>
+
+    <select id="selectCoffeeOrderStatus" parameterType="OrderStatusDVO"
+            resultType="OrderStatusDVO">
+	 	select id, order_history from coffee_order_status  
+	</select>
+</mapper>

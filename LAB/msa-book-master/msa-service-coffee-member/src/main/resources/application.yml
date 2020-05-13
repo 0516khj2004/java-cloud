@@ -1,0 +1,28 @@
+server:
+  port: 8081
+
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+
+spring:
+  application:
+    name: msa-service-coffee-member
+
+  #Config Server
+  cloud:
+    config:
+      uri: http://localhost:8888
+      name: msa-architecture-config-server
+      profile: local
+
+management:
+  security:
+    enabled: false
+#보안기능 X
+
+#Eureka Client - 디스커버리 client - 마이크로서비스 등록
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9091/eureka/
+      

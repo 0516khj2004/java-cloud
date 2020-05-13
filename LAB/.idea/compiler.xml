@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="myeureka" />
+        <module name="myeureka2" />
+        <module name="myeureka3" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="com.example.msa.msa-service-coffee-member.main" target="1.8" />
+      <module name="com.example.msa.msa-service-coffee-member.test" target="1.8" />
+      <module name="com.example.msa.msa-service-coffee-order.main" target="1.8" />
+      <module name="com.example.msa.msa-service-coffee-order.test" target="1.8" />
+      <module name="com.example.msa.msa-service-coffee-status.main" target="1.8" />
+      <module name="com.example.msa.msa-service-coffee-status.test" target="1.8" />
+      <module name="msa-book.main" target="1.8" />
+      <module name="msa-book.test" target="1.8" />
+      <module name="msa-echosystem.msa-architecture-config-server-master.main" target="1.8" />
+      <module name="msa-echosystem.msa-architecture-config-server-master.test" target="1.8" />
+      <module name="msa-echosystem.msa-architecture-eureka-server-master.main" target="1.8" />
+      <module name="msa-echosystem.msa-architecture-eureka-server-master.test" target="1.8" />
+      <module name="msa-echosystem.msa-architecture-hystrix-dashboard-master.main" target="1.8" />
+      <module name="msa-echosystem.msa-architecture-hystrix-dashboard-master.test" target="1.8" />
+      <module name="msa-echosystem.msa-architecture-turbine-server-master.main" target="1.8" />
+      <module name="msa-echosystem.msa-architecture-turbine-server-master.test" target="1.8" />
+      <module name="msa-echosystem.msa-architecture-zuul-server-master.main" target="1.8" />
+      <module name="msa-echosystem.msa-architecture-zuul-server-master.test" target="1.8" />
+      <module name="myeureka" target="1.8" />
+      <module name="myeureka2" target="1.8" />
+      <module name="myeureka3" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="myeureka" options="-parameters" />
+      <module name="myeureka2" options="-parameters" />
+      <module name="myeureka3" options="-parameters" />
+    </option>
+  </component>
+</project>

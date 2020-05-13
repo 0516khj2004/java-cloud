@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: jakarta.xml.bind:jakarta.xml.bind-api:3.0.0-RC3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/3.0.0-RC3/ae6602fa51402cc26e2b67122f4c3b2db5e5eccf/jakarta.xml.bind-api-3.0.0-RC3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/3.0.0-RC3/e42cb31f441cd172f17b7f9c4d96d89dc3cba145/jakarta.xml.bind-api-3.0.0-RC3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

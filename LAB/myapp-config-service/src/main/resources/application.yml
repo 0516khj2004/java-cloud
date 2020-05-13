@@ -1,0 +1,15 @@
+server:
+  port: 8012
+
+spring:
+  application:
+    name: ConfigServer
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/0516khj2004/MyAppConfiguration.git
+          username: 0516khj2004
+          password: 522zx2796^^
+          clone-on-start: true
