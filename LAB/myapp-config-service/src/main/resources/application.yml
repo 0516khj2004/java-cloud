@@ -13,3 +13,14 @@ spring:
           username: 0516khj2004
           password: 522zx2796^^
           clone-on-start: true
+  rebbitmq:
+    host: localhost
+    port: 5672
+    username: admin
+    password: admin
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh

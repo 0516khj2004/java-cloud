@@ -5,6 +5,12 @@ spring:
   application:
     name: users-ws
 
+  rebbitmq:
+    host: localhost
+    port: 5672
+    username: admin
+    password: admin
+
   devtools:
     restart:
       enabled: true
@@ -31,3 +37,7 @@ gateway:
 token:
   expiration_time: 86400000
   secret: local_secret
+
+login:
+  url:
+    path: /users/login

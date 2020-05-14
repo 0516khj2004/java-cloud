@@ -29,7 +29,7 @@ public class WebSecurity extends WebSecurityConfigurerAdapter {
     }
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http.csrf().disable();
+        http.csrf().disable(); //
 //        http.authorizeRequests().antMatchers("/users/**").permitAll();
         http.authorizeRequests().antMatchers("/**").permitAll()
 //                .hasIpAddress(env.getProperty("gateway.ip"))
@@ -45,7 +45,8 @@ public class WebSecurity extends WebSecurityConfigurerAdapter {
 //        authenticationFilter.setAuthenticationManager(
 //                authenticationManager()
 //        );
-
+        //url 변경
+        authenticationFilter.setFilterProcessesUrl(env.getProperty("login.url.path"));
         return authenticationFilter;
     }
 
