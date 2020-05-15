@@ -1,0 +1,11 @@
+spring:
+    datasource:
+        url: jdbc:h2:mem:testdb
+        username: sa
+        password: '{cipher}AQBYjMh3wqPP3nl7n/W97jvya2GdgU1f9mupH48ZA7HAChuWFCix8a8vMGYfrM8vszY0jBAkv22MPji7oQdSY1pHPVCDrL183wAuettjwQWli3swsdmHTnb4J/2EeCTf7YSGHVnzg7TlNVLIpm86OpQoigRQVZd5wXChhFbJdEf7fCY8QVF5K4MxgilEJnthm5eNAEK4PjWqo0o8z7OZHa7qAePkSfwOhOAVg7H++ip2nG/EdMp6lIqBW1k0bNv0yz/e/yTtzABYjB+uV4vJjjJaq/NykQLzXhTtZZAB4Pa/x/oVZGNxhu/zk/U5ywi95DmETyTchcluxrRAPd+MNDqmQMni42LflluuT3izp04pyAUf8uXguHn/Z8q643e17qs='
+
+login:
+    url:
+        path: /users/login
+
+

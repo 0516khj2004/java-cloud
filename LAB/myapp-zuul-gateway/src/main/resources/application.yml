@@ -4,7 +4,7 @@ server:
 spring:
   application:
     name: ZuulServer
-  rebbitmq:
+  rabbitmq:
     host: localhost
     port: 5672
     username: admin

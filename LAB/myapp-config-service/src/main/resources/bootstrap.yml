@@ -1,0 +1,6 @@
+encrypt:
+#  key: testtesttest
+  key-store:
+    location: file:///${user.home}/msa/msa/LAB/dev/apiEncryptionkey.jks
+    password: 1q2w3e4r
+    alias: apiEncryptionkey

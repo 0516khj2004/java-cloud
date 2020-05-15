@@ -4,6 +4,8 @@ server:
 spring:
   application:
     name: ConfigServer
+  profiles:
+    active: native
 
   cloud:
     config:
@@ -13,7 +15,9 @@ spring:
           username: 0516khj2004
           password: 522zx2796^^
           clone-on-start: true
-  rebbitmq:
+        native:
+          search-locations: file:///${user.home}/msa/msa/LAB/dev
+  rabbitmq:
     host: localhost
     port: 5672
     username: admin

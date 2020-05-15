@@ -1,0 +1,6 @@
+gateway:
+    ip: 172.23.192.1
+
+token:
+    expiration_time: 86400000
+    secret: '{cipher}AQAqvZuEwtI7Uv1LTHm1xm7n8d7vWwqZThrCZAfIoubXsWfVAQnRcIwSRV11R1LicVQy7Q9dNMy/wMSpBv055VADTRUYeH5G690qxBH+Y4HsrmdUCvFt23TOxj9/VnZgWRhnwzhdBBW68skHvXsxOas99x1+fwUcYkBFJRPB1IYF7QRBGBb0yX1JE6TDYQTk8mYumYsap7KeQZC5oc6qc7yxmqrvNDsc2apX+R/3WpDeILk2qJ7fr2UFJ+8TVeEPRx2OG2ovh4NQCro2v3is9cmcXCG4Uo+5kJ1bp0vmIm57n+FTJ4zoKfkwAbSCrNXdgOITRHzmf7MbAFK4YTrTM8PfCuedIqjMOMpEDfWvrdqxszKlACDmnsAxkLs+vsAiLdI='
