@@ -4,6 +4,8 @@ import com.example.msa.springboot.repository.ICoffeeMemberMapper;
 import com.example.msa.springboot.repository.dvo.MemberDVO;
 import com.example.msa.springboot.rest.rvo.MemberRVO;
 import com.example.msa.springboot.service.ServiceConfig;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -16,6 +18,7 @@ import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 
 @RefreshScope
 @RestController
+@Slf4j
 public class CoffeeMemberRestController {
 
     @Autowired
@@ -55,13 +58,20 @@ public class CoffeeMemberRestController {
         else return true;
     }
 
-    @HystrixCommand(fallbackMethod = "fallbackFunction")
+    @HystrixCommand(fallbackMethod = "fallbackFunction",
+            commandProperties = {
+            @HystrixProperty(name="execution.isolation.thread.timeoutInMilliseconds", value = "3000"),
+            @HystrixProperty(name="circuitBreaker.errorThresholdPercentage", value = "10"),
+            @HystrixProperty(name="circuitBreaker.requestVolumeThreshold", value = "2"),
+            @HystrixProperty(name="circuitBreaker.sleepWindowInMilliseconds", value = "5000")
+            })
     @RequestMapping(value = "/fallbackTest", method = RequestMethod.GET)
     public String fallbackTest() throws Throwable {
         throw new Throwable("fallbackTest");
     }
 
-    public String fallbackFunction() {
+    public String fallbackFunction(Throwable t) {
+        log.info(t.getMessage());
         return "fallbackFunction()";
     }
 

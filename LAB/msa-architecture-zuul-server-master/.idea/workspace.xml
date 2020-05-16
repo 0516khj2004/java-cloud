@@ -53,12 +53,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="340" />
-    <option name="y" value="323" />
-    <option name="width" value="1404" />
-    <option name="height" value="877" />
-  </component>
   <component name="ProjectId" id="1bvpTWB89XiNjQ2c5dmNG7BO7DN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -79,6 +73,12 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556174979671" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../msa-book-master" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -111,7 +111,7 @@
       <workItem from="1556158230931" duration="3478000" />
       <workItem from="1589522431947" duration="1420000" />
       <workItem from="1589523864942" duration="39000" />
-      <workItem from="1589523912178" duration="1007000" />
+      <workItem from="1589523912178" duration="4394000" />
     </task>
     <servers />
   </component>
@@ -123,38 +123,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="273" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589525430982" />
-    <state width="1875" height="347" key="GridCell.Tab.0.bottom" timestamp="1589523856262">
+    <state width="1875" height="96" key="GridCell.Tab.0.bottom" timestamp="1589596352324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589523856262" />
-    <state width="1875" height="347" key="GridCell.Tab.0.center" timestamp="1589523856262">
+    <state width="1875" height="96" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589596352324" />
+    <state width="1875" height="96" key="GridCell.Tab.0.center" timestamp="1589596352324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="347" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589523856262" />
-    <state width="1875" height="347" key="GridCell.Tab.0.left" timestamp="1589523856262">
+    <state width="1875" height="96" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589596352324" />
+    <state width="1875" height="96" key="GridCell.Tab.0.left" timestamp="1589596352323">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="347" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589523856262" />
-    <state width="1875" height="347" key="GridCell.Tab.0.right" timestamp="1589523856262">
+    <state width="1875" height="96" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589596352323" />
+    <state width="1875" height="96" key="GridCell.Tab.0.right" timestamp="1589596352324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="347" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589523856262" />
-    <state width="1875" height="347" key="GridCell.Tab.1.bottom" timestamp="1589523856263">
+    <state width="1875" height="96" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589596352324" />
+    <state width="1875" height="96" key="GridCell.Tab.1.bottom" timestamp="1589596352324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589523856263" />
-    <state width="1875" height="347" key="GridCell.Tab.1.center" timestamp="1589523856262">
+    <state width="1875" height="96" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589596352324" />
+    <state width="1875" height="96" key="GridCell.Tab.1.center" timestamp="1589596352324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589523856262" />
-    <state width="1875" height="347" key="GridCell.Tab.1.left" timestamp="1589523856262">
+    <state width="1875" height="96" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589596352324" />
+    <state width="1875" height="96" key="GridCell.Tab.1.left" timestamp="1589596352324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589523856262" />
-    <state width="1875" height="347" key="GridCell.Tab.1.right" timestamp="1589523856262">
+    <state width="1875" height="96" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589596352324" />
+    <state width="1875" height="96" key="GridCell.Tab.1.right" timestamp="1589596352324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589523856262" />
+    <state width="1875" height="96" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589596352324" />
     <state width="1875" height="347" key="GridCell.Tab.2.bottom" timestamp="1589523856263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
