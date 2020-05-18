@@ -1,8 +1,13 @@
 spring:
+    # datasource:
+    #     url: jdbc:h2:mem:testdb
+    #     username: sa
+    #     password: '{cipher}AQBYjMh3wqPP3nl7n/W97jvya2GdgU1f9mupH48ZA7HAChuWFCix8a8vMGYfrM8vszY0jBAkv22MPji7oQdSY1pHPVCDrL183wAuettjwQWli3swsdmHTnb4J/2EeCTf7YSGHVnzg7TlNVLIpm86OpQoigRQVZd5wXChhFbJdEf7fCY8QVF5K4MxgilEJnthm5eNAEK4PjWqo0o8z7OZHa7qAePkSfwOhOAVg7H++ip2nG/EdMp6lIqBW1k0bNv0yz/e/yTtzABYjB+uV4vJjjJaq/NykQLzXhTtZZAB4Pa/x/oVZGNxhu/zk/U5ywi95DmETyTchcluxrRAPd+MNDqmQMni42LflluuT3izp04pyAUf8uXguHn/Z8q643e17qs='
     datasource:
-        url: jdbc:h2:mem:testdb
-        username: sa
-        password: '{cipher}AQBYjMh3wqPP3nl7n/W97jvya2GdgU1f9mupH48ZA7HAChuWFCix8a8vMGYfrM8vszY0jBAkv22MPji7oQdSY1pHPVCDrL183wAuettjwQWli3swsdmHTnb4J/2EeCTf7YSGHVnzg7TlNVLIpm86OpQoigRQVZd5wXChhFbJdEf7fCY8QVF5K4MxgilEJnthm5eNAEK4PjWqo0o8z7OZHa7qAePkSfwOhOAVg7H++ip2nG/EdMp6lIqBW1k0bNv0yz/e/yTtzABYjB+uV4vJjjJaq/NykQLzXhTtZZAB4Pa/x/oVZGNxhu/zk/U5ywi95DmETyTchcluxrRAPd+MNDqmQMni42LflluuT3izp04pyAUf8uXguHn/Z8q643e17qs='
+        url: jdbc:mysql://127.0.0.1:3306/springboot?serverTimezone=UTC
+        username: root
+        password: '{cipher}AQCTZdaEboNUl+w+yAVOBnoypsdEyCZXmiV3NeIOhd4f8YUq5PkC4CntigYKX87LbHwjU0E9DPRoIW3yzYpCmdAUSSaAcuHmFnWk+0krssN6H7smE7CGsCo5Z6d43OS/AHwzZJkvDkE688jBuzNazEXqh7Drsrb9eD8zSijMrKvk8Uy+w6u3THolSqCr6RVlSOVqVd1YvaBhCe4zVf84m0aaeSz+wWE/WTjQXypV0fBBgJSIysI5cWjdiZfkN+9oudde5aiT8apSiczJ7wn7xMS826dQ3KcN/gTTD6XsVCDGBFr2ouuzSNnYd8m6OokL1gwxVONwI64UCBWfCHYaf2Tpm+UYXIBZ7hyDNV2bz2EXGY3Owv47eYtNts2mrWgy9cY='
+        driver-class-name: com.mysql.cj.jdbc.Driver
 
 login:
     url:

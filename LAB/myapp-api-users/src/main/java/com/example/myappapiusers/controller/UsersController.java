@@ -2,6 +2,7 @@ package com.example.myappapiusers.controller;
 
 import com.example.myappapiusers.model.CreateResponseModel;
 import com.example.myappapiusers.model.CreateUserRequestModel;
+import com.example.myappapiusers.model.UserResponseModel;
 import com.example.myappapiusers.service.UserService;
 import com.example.myappapiusers.shared.UserDto;
 import org.modelmapper.ModelMapper;
@@ -49,6 +50,15 @@ public class UsersController {
                 CreateResponseModel.class);
 
         return ResponseEntity.status(HttpStatus.CREATED).body(returnValue);
+    }
+
+    @GetMapping(value = "/{userId}",
+                produces = {MediaType.APPLICATION_JSON_VALUE,
+                MediaType.APPLICATION_XML_VALUE})
+    public ResponseEntity<UserResponseModel> getUser(@PathVariable("userId") String userId){
+        UserDto userDto = userService.getUserByUserId(userId);
+        UserResponseModel returnValue = new ModelMapper().map(userDto,UserResponseModel.class );
+        return ResponseEntity.status(HttpStatus.OK).body(returnValue);
     }
 
 }

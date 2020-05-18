@@ -2,8 +2,10 @@ package com.example.msa.domain.model;
 
 import lombok.Data;
 
+import java.io.Serializable;
+
 @Data
-public class CoffeeOrderCVO {
+public class CoffeeOrderCVO implements Serializable {
     private String id;
     private String orderNumber; //주문번호
     private String coffeeName;  //커피종류
