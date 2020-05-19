@@ -14,4 +14,5 @@ public class UserResponseModel {
 
     //앨범에서 가져옴
     private List<AlbumResponseModel> albums;
+    private List<AccountResponseModel> account;
 }

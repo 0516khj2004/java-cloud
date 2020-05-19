@@ -44,6 +44,7 @@ eureka:
 gateway:
   ip: 172.23.192.1
 
+
 #token:
 #  expiration_time: 86400000
 #  secret: local_secret
@@ -51,3 +52,10 @@ gateway:
 #login:
 #  url:
 #    path: /users/login
+logging:
+  level:
+    com.example.myappapiusers.client : DEBUG
+
+feign:
+  hystrix:
+    enabled: true

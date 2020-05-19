@@ -1,10 +1,14 @@
 package com.example.myappapiusers.service;
 
+import com.example.myappapiusers.client.AccountServiceClient;
 import com.example.myappapiusers.client.AlbumServiceClient;
 import com.example.myappapiusers.data.UserEntity;
+import com.example.myappapiusers.model.AccountResponseModel;
 import com.example.myappapiusers.model.AlbumResponseModel;
 import com.example.myappapiusers.repository.UserRepository;
 import com.example.myappapiusers.shared.UserDto;
+import feign.FeignException;
+import lombok.extern.slf4j.Slf4j;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,21 +26,24 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
+@Slf4j
 @Service
 public class UserServiceImpl implements  UserService {
     UserRepository repository;
     BCryptPasswordEncoder bCryptPasswordEncoder; // password 암호화
 //    RestTemplate restTemplate;
     AlbumServiceClient albumServiceClient;
-
+    AccountServiceClient accountServiceClient;
 
     @Autowired
     public UserServiceImpl(UserRepository repository,
                            BCryptPasswordEncoder bCryptPasswordEncoder,
-                           AlbumServiceClient albumServiceClient) {
+                           AlbumServiceClient albumServiceClient,
+                           AccountServiceClient accountServiceClient) {
         this.repository = repository;
         this.bCryptPasswordEncoder = bCryptPasswordEncoder;
         this.albumServiceClient = albumServiceClient;
+        this.accountServiceClient = accountServiceClient;
      }
 
     @Override
@@ -90,7 +97,7 @@ public class UserServiceImpl implements  UserService {
         }
         UserDto userDto = new ModelMapper().map(userEntity, UserDto.class);
 //        //call -> albums microservice
-//        ResponseEntity<List<AlbumResponseModel>> albumsLisrResponse =
+//        ResponseEntity<List<AlbumResponseModel>> albumsListResponse =
 //        restTemplate.exchange(
 //                String.format("http://albums-ws/users/%s/albums",userId),
 //                HttpMethod.GET,
@@ -98,12 +105,24 @@ public class UserServiceImpl implements  UserService {
 //                new ParameterizedTypeReference<List<AlbumResponseModel>>() {
 //                }
 //        );
-//        List<AlbumResponseModel> albumList = albumsLisrResponse.getBody();
+//        List<AlbumResponseModel> albumList = albumsListResponse.getBody();
+
+//        List<AlbumResponseModel> albumList = null;
+//        try{
+//            albumList = albumServiceClient.getAlbums(userId);
+//        } catch (FeignException e){
+//            log.error(e.getLocalizedMessage());
+//        }
 
         List<AlbumResponseModel> albumList =
                 albumServiceClient.getAlbums(userId);
         userDto.setAlbums(albumList);
 
+        List<AccountResponseModel> accountList =
+                accountServiceClient.getAccount(userId);
+        userDto.setAccount(accountList);
+
         return userDto;
     }
+
 }

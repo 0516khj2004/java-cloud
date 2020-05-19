@@ -12,5 +12,9 @@ spring:
 login:
     url:
         path: /users/login
-
+# logging:
+#     level:
+#         com.example.myappapiusers.client: DEBUG
+# alums:
+#     url: http://albums-ws/users/%s/albums
 
