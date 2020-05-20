@@ -113,9 +113,10 @@ public class UserServiceImpl implements  UserService {
 //        } catch (FeignException e){
 //            log.error(e.getLocalizedMessage());
 //        }
-
+        log.info("Before callimg");
         List<AlbumResponseModel> albumList =
                 albumServiceClient.getAlbums(userId);
+        log.info("After callimg");
         userDto.setAlbums(albumList);
 
         List<AccountResponseModel> accountList =

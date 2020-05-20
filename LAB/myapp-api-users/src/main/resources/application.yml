@@ -11,6 +11,15 @@ spring:
     username: admin
     password: admin
 
+  zipkin:
+    base-url: http://localhost:9411
+    sender:
+      type: web
+
+  sleuth:
+    sampler:
+      probability: 1
+
   devtools:
     restart:
       enabled: true
@@ -37,7 +46,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8010/eureka
+      defaultZone: http://test:test@localhost:8010/eureka
   instance:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
 

@@ -1,0 +1,5 @@
+spring: 
+  security:
+    user:
+      name: test
+      password: '{cipher}AQBbettGJWL8XoaQlfpGWcmbI9Ko+h0wS3xYdUVdSwsXhkT+Hk/srPGc0snBO/R904u6PsR31gWb2hoIyokf0xRvJLD8kxnreV7u6V/h0/VyIGp+2CqCIgA4fuWsMu1o+5/t3icxrgD6h09xaB10/Z4GrPhFIvFXx2HasjKDOkL/XedXh7U1MUGwFf/10LWJEhbVlIQ9ZVccM3EPKm6Vecn9G8kj/0p2iFZ0bqfIGJWIJl8TBZ5uUgLqzTe9HckGKERPYrKeeXzIK2aGmGSMtD6aKI57Htj/hSvBYiIc8mJqm0CQ8WEjSmftkiMap18efyaahDoLkE/DXmXjJepKem7oGzLFJIG7gZ4ct240ytlQCP6nnVBhjiHrWYV0xDVrFe4='
